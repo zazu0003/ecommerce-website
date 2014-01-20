@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  font: normal 100%/1.5 Verdana, Geneva, sans-serif; /* 16px/24px */
+  background-color:#DCDDD8;
+  margin: 1em 0;
+  padding: 0.3333em 0 0;
+}
+
+::selection{
+	background-color:#475F77;
+	color: #DCDDD8;
+}
+
+a,
+a:link{
+	color: #D74B4B;
+	text-decoration: underline;
+	border-bottom: 0.1em solid rgba (255,0,0,0.5);
+	transition: all 200ms linear;
+}
+
+a:visited{
+	color: #D74B4B;
+	
+}
+
+a:hover,
+a:focus,
+a:active{
+	color:#EBB035;
+	border-bottom: pink;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem;
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 1.3154;
+}
+
+.zetta {
+  font-size: 2.0273rem;
+  line-height: 1.4798;
+}
+
+h1, .exa {
+  font-size: 1.8020rem;
+  line-height: 1.6648;
+  color:#475F77;
+}
+
+h2, .peta {
+  font-size: 1.6018rem;
+  line-height: 1.8729;
+  color:#475F77;
+}
+
+h3, .tera {
+  font-size: 1.4238rem;
+  line-height: 1.0535;
+  color:#475F77;
+}
+
+h4, .giga {
+  font-size: 1.2656rem;
+  line-height: 1.1852;
+  color:#475F77;
+}
+
+h5, .mega {
+  font-size: 1.1250rem;
+  line-height: 1.3333;
+  color:#475F77;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+  color:#475F77;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.6875;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 1.8984;
+}
+
+ul{
+	list-style-type: square;
+}
+
+ul li{
+	postition: relative;
+}
+
+ul li:before{
+	content:"•";
+	color: #FEC56B;
+	position: absolute;
+	left: -1em;
+}
+
+mark, ins {
+	background-color: #EBB035;
+	line-height: 90%;
+	padding: 0 0.125em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 1em;
+	line-height: 2;
+}
+
+th{ 
+	color:#475F77;
+	text-align:left;
+	padding:.5rem;
+}
+
+td{
+	text-align:center;
+	font-size: .75em;
+}
+
+caption{
+	color:#D74B4B;
+	text-align:left;
+}
